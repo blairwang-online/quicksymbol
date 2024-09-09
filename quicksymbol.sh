@@ -7,6 +7,12 @@ case "$1" in
   mdash)
     echo "—"
     ;;
+  lstroke)
+    echo "ł"
+    ;;
+  Lstroke)
+    echo "Ł"
+    ;;
   *)
     echo "Please specify the desired symbol, e.g.: euro / mdash"
     ;;
