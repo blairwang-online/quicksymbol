@@ -4,14 +4,20 @@ case "$1" in
   euro)
     echo "€"
     ;;
-  mdash)
-    echo "—"
+  e_acute)
+    echo "é"
+    ;;
+  E_acute)
+    echo "É"
     ;;
   l_stroke)
     echo "ł"
     ;;
   L_stroke)
     echo "Ł"
+    ;;
+  mdash)
+    echo "—"
     ;;
   o_umlaut)
     echo "ö"
